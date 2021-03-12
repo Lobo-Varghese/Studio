@@ -3,7 +3,7 @@
 <suite name="Smoke Test Suite" verbose="1">
     <test name="UI Model Regression">
         <classes>
-            <class name="runner.RunnerClass"/>
+            <class name="src\main\java\dummy\LoboProgramCheck"/>
         </classes>
     </test>
 </suite>
