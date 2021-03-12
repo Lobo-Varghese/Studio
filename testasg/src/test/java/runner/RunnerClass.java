@@ -9,10 +9,10 @@ import cucumber.api.testng.TestNGCucumberRunner;
 import cucumber.api.CucumberOptions;
 
 @CucumberOptions(
-        features = "C:\\Studio Auto\\testasg\\featureFiles\\UIModel.feature",
+        features = "C:\\Studio Auto\\testasg\\featureFiles",
         glue = {"stepdefinition"},  
         monochrome=true,
-    tags= {},
+    tags= {"@Runthis"},
         plugin = {
                 "pretty",
                 "html:target/cucumber-reports/cucumber-pretty",
