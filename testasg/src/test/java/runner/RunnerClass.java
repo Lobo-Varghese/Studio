@@ -9,7 +9,7 @@ import cucumber.api.testng.TestNGCucumberRunner;
 import cucumber.api.CucumberOptions;
 
 @CucumberOptions(
-        features = "C:\\Studio Auto\\testasg\\featureFiles",
+        features = "C:\\Studio Auto\\testasg\\featureFiles\\UIModel.feature",
         glue = {"stepdefinition"},  
         monochrome=true,
     tags= {},
