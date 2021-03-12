@@ -116,7 +116,7 @@
 				<configuration>
 					<!-- TestNG Suite XML files list for test execution -->
 					<suiteXmlFiles>
-						<suiteXmlFile>testasg/testng.xml</suiteXmlFile>
+						<suiteXmlFile>testng.xml</suiteXmlFile>
 						<!-- <suiteXmlFile>src/test/resources/test_parameters.xml</suiteXmlFile> -->
 					</suiteXmlFiles>
 				</configuration>
