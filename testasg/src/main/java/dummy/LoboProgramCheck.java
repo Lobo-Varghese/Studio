@@ -2,6 +2,8 @@ package dummy;
 
 import java.util.Scanner;
 
+import org.testng.annotations.Test;
+
 public class LoboProgramCheck {
 			//checking GIT1
 			// reverse a String
@@ -19,15 +21,16 @@ public class LoboProgramCheck {
 			// get numeric values from string and add
 			// prime number from 1 to 100
 
-	public static void main(String[] args) {		
-		
-		//reverseWithArray();
-		//reverseUsingStringBuilder();
-		//swapWithVariable();
-		//swapWithoutVariable();
-		reverseNumber();
-	}
+//	public static void main(String[] args) {		
+//		
+//		//reverseWithArray();
+//		//reverseUsingStringBuilder();
+//		//swapWithVariable();
+//		//swapWithoutVariable();
+//		reverseNumber();
+//	}
 	
+	@Test
 	/**reverse a String**/
 	public static void reverseWithArray() {
 	String rev = "Lobo";
