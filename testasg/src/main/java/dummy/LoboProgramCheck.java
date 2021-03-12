@@ -3,7 +3,7 @@ package dummy;
 import java.util.Scanner;
 
 public class LoboProgramCheck {
-			//checking GIT
+			//checking GIT1
 			// reverse a String
 			// swap two variable(with without variable)
 			// reverse a number
