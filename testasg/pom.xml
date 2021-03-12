@@ -3,6 +3,14 @@
   <groupId>asgtest</groupId>
   <artifactId>testasg</artifactId>
   <version>0.0.1-SNAPSHOT</version>
+  
+  <properties>
+		<maven.compiler.source>1.8</maven.compiler.source>
+		<maven.compiler.target>1.8</maven.compiler.target>
+	</properties>
+  
+  
+  
   <dependencies>
  
   <dependency>
@@ -11,7 +19,7 @@
     <version>3.141.59</version>
 </dependency>
 
-<!-- https://mvnrepository.com/artifact/io.cucumber/cucumber-java -->
+<!-- https://mvnrepository.com/artifact/io.cucumber/cucumber-java checking-->
 <!--<dependency>
     <groupId>io.cucumber</groupId>
     <artifactId>cucumber-java</artifactId>
