@@ -4,7 +4,7 @@ Background: Studio project is open
 Given project "StudioAuto" get open
 When UIModel "CommonVM.vm" get open
  
-
+@Runthis
 Scenario: Button-Single Control ID Verification
 Then enter the button id for the button control
 Then save and preview the UI Model
